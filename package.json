@@ -1,0 +1,14 @@
+{
+  "name": "colorful_command_line",
+  "version": "0.0.1",
+  "description": "Adds color to the command line application",
+  "main": "weatherApp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hamza Foy",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}
