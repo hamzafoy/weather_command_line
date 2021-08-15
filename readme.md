@@ -1,21 +1,33 @@
-## This application is intended to be run from the command prompt on Windows systems.
 
-*This application relies on the **OpenWeatherMap** API for current weather condition & temperature data.*
+## Table of Contents
 
-# How to use
+1. [What is this app?](#id-section1)
+2. [Technologies Used](#id-section2)
+3. [Notes](#id-section3)
 
-This application is very simple to use. You must type `node weatherApp.js [ZIPCODE GOES HERE]`. The ZIP goes after
-the application name in the command line. The response will print out the name of the city that ZIP belongs to, the current temperature
-and the current weather conditions on the ground.
+<hr>
 
-This application relies on requiring the `"https"` & `"colors"` modules. This code is handwritten and accounts for most of the
-grammatical alterations necessary for the command line output to read correctly. I intend to go back through this code and put in
-appropriate error handling and error messaging.
+<div  id='id-section1'/>
 
-This application is a small one, but is a demonstration of my growing proficiency with dealing with JavaScript & tools such as Node.js & npm.
-If you have a suggestion for a change, feel free to create an issue in GitHub and articulate the suggestion to me.
+### What is this app?
 
-# Please note the following
+This application relies on the **OpenWeatherMap** API for current weather condition & temperature data. This application receives an input of a *ZIP code* and outputs the *name of the city that the ZIP belongs to*, *temperature in Fahrenheit*, & *current weather conditions*.
 
-The OpenWeatherMap API Key in my name is hidden in a file hidden from further git commits via the .gitignore file. You may request your own API Key at
-[OpenWeatherMap](https://openweathermap.org/api). Simply put your own API key in Line 23 where it asks for `${apiKey}` after `APPID=`.
+<hr>
+
+<div id='id-section2' />
+
+### Technologies Used
+
+* Vanilla Frontend JavaScript
+* Node.js
+
+<hr>
+
+<div id='id-section3' />
+
+### Notes
+
+* This application is very simple to use. You must type `node weatherApp.js [ZIPCODE GOES HERE]`. The ZIP goes after the application name in the command line. The response will print out the name of the city that ZIP belongs to, the current temperature and the current weather conditions on the ground.
+* This application relies on requiring the `"https"` & `"colors"` modules.
+* The OpenWeatherMap API Key in my name is hidden in a file hidden from further git commits via the .gitignore file. You may request your own API Key at [OpenWeatherMap](https://openweathermap.org/api).
